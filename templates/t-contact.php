@@ -32,9 +32,9 @@ get_header(); ?>
 
 	$home_ID = 20;
 
-	$bg_image = get_field('hb__background_image');
+	$bg_image = get_field('contactpage_herobanner');
 
-	$contact_details = get_field('c_contact_details');
+	//$contact_details = get_field('c_contact_details');
 
 ?>
 
@@ -46,9 +46,9 @@ get_header(); ?>
 
 		<div class="content">
 
-			<h1><?php the_field('hb__page_title')?></h1>
+			<h1><?php the_field('contactpage_title')?></h1>
 
-			<p><?php the_field('hb__page_description')?></p>
+			<p><?php the_field('contactpage_description')?></p>
 
 		</div>
 
