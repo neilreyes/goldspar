@@ -1,0 +1,1047 @@
+/*----SECTION 2------*/
+#section2 h2 {
+    color: #425de6;
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#section2 {
+    text-align: center;
+    background: #fff;
+    padding: 60px 0px;
+}
+#section2 p {
+    color: #000;
+    font-size: 18px;
+    line-height: 24px;
+    max-width: 60%;
+    margin: 5px auto;
+    font-family: 'Open sans';
+}
+
+#section3 .right,
+#section4 .left,
+#section5 .right {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    min-height: 460px;
+}
+
+#section3 .section-content,
+#section4 .section-content ,
+#section5 .section-content {
+    min-height: 460px;
+    -webkit-box-shadow: inset 5px 0 13px #677dec;
+    box-shadow: inset 65px 0 150px #677dec;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+#section3 .text-content {
+    top: 20%;
+}
+
+#section3 .section-content::after,
+#section5 .section-content::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+    border-left: 30px solid #425DE6;
+    left: 100%;
+    top: 40%;
+}
+
+#section4 .section-content::before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+    border-right: 30px solid #5D75EA;
+    right: 100%;
+    top: 40%;
+}
+
+#section4 .number {
+    left: 20px;
+}
+
+#section6 {
+    padding: 80px 0;
+    padding-top:150px;
+    position:relative;
+}
+
+#section6 .sec6-left {
+    float: left;
+    width: 35%;
+}
+
+#section6 .sec6-right {
+    float: right;
+    width: 60%;
+}
+#section6 .show-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    text-align: center;
+    background: #000;
+    padding: 20px;
+    height: 90px;
+    width: 180px;
+    border-radius: 0px 0px 90px 90px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding-top: 5px;
+}
+#section6 .show-btn p{
+    font-size: 35px;
+    color: #fff;
+    font-weight: bold;
+    line-height: 0;
+}
+#section6 .show-btn p span{
+    display: block;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 600;
+    margin-top: 16px;
+}
+#section6 .sec6-left h2 {
+    font-size: 36px;
+    line-height: 45px;
+    color: #425de6;
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+}
+
+#section6 .sec6-left p {
+    font-size: 18px;
+    line-height: 25px;
+    color: #3e3d3e;
+    margin: 20px 0 0;
+    font-family: Open sans, sans-serif;
+}
+
+#section6 .sec6-left ul {
+    list-style: none;
+    margin: 25px 0 0;
+    padding: 0;
+}
+
+#section6 .sec6-left ul li {
+    display: inline-block;
+    margin: 0 20px 0 0;
+}
+
+#section6 .sec6-right ul {
+    list-style: none;
+    text-align: center;
+}
+
+#section6 .sec6-right ul li {
+    display: inline-block;
+    width: 22%;
+    vertical-align: top;
+    background: #425de6;
+    border-radius: 7px;
+    padding: 20px 20px 0;
+    min-height: 195px;
+    margin: 0 5px 15px;
+}
+
+#section6 .sec6-right ul li .image-icon-cont {
+    min-height: 85px;
+}
+
+#section6 .sec6-right ul li p {
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
+    font-family: Source Sans Pro, sans-serif;
+    font-weight: 700;
+    margin: 15px 0 0;
+}
+
+#section7 .sec7-left {
+    float: left;
+    width: 70%;
+}
+
+#section7 .sec7-right {
+    float: right;
+    width: 30%;
+    background-repeat: no-repeat;
+    background-position: right center;
+    min-height: 696px;
+    margin-top: 246px;
+}
+
+#section7 .sec7-left .sec7-testimonial {
+    background: #242424;
+    padding: 50px 100px;
+}
+
+#section7 .sec7-left .sec7-heading {
+    font-size: 36px;
+    line-height: 45px;
+    color: #fff;
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+#section7 .sec7-left .sec7-testimonial a {
+    float: right;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 25px;
+    font-family: Montserrat, sans-serif;
+    color: #fff;
+    border-bottom: 5px solid #5cdeea;
+    padding-bottom: 5px;
+    -webkit-transition: all ease 0.6s;
+    transition: all ease 0.6s;
+}
+
+#section7 .sec7-left .sec7-testimonial a:hover {
+    -webkit-box-shadow: inset 150px 0 0 #5cdeea;
+            box-shadow: inset 150px 0 0 #5cdeea;
+    padding: 10px;
+    border-bottom: 5px solid transparent;
+}
+
+#section7 .sec7-left a {
+    float: right;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 25px;
+    font-family: Montserrat, sans-serif;
+    color: #fff;
+    border-bottom: 5px solid #5cdeea;
+    padding-bottom: 5px;
+}
+
+#section7 .sec7-contact .inner-right ul li p a:hover {
+    color: #5d75ea !important;
+}
+
+#section7 .sec7-left .testimonial-free.text-center {
+    font-size: 22px;
+    line-height: 30px;
+    color: #fff;
+    font-family: Open Sans, sans-serif;
+    font-style: italic;
+    margin: 55px 0 0;
+    text-align: left;
+}
+
+#section7 .sec7-left .owl-prev,
+#section7 .sec7-left .owl-next {
+    display: none;
+}
+
+#section7 .sec7-left .tf-client-name,
+#section7 .sec7-left .tf-client-designation {
+    font-size: 18px;
+    line-height: 30px;
+    color: #fff;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+#section7 .sec7-left .tf-client-designation {
+    margin: 0;
+}
+
+#section7 .sec7-left .tf-client-designation::before {
+    content: ", ";
+}
+
+#section7 .sec7-left .owl-pagination {
+    text-align: right;
+}
+
+#section7 .sec7-left .owl-page.active {
+    background-color: #fff;
+}
+
+#section7 .sec7-left .owl-page {
+    background-color: transparent;
+    border: 2px solid #fff;
+}
+
+#section7 .sec7-left .sec7-img-cont {
+    position: relative;
+}
+
+#section7 .sec7-left .sec7-img-cont::after {
+    content: "";
+    position: absolute;
+    border-bottom: 1px solid #aeaeae;
+    max-width: 1100px;
+    top: 50%;
+    width: 100%;
+}
+
+#section7 .sec7-left img {
+    display: block;
+    margin: 10px 0 0;
+    position: relative;
+    z-index: 999;
+}
+
+#section7 .sec7-contact {
+    background: #425de6;
+    padding: 100px 80px 150px 85px;
+    -webkit-box-shadow: inset 5px 0 13px #677dec;
+    box-shadow: inset 65px 0 150px #677dec;
+}
+
+#section7 .sec7-contact .inner-left {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+}
+
+#section7 .sec7-contact .sec7-heading {
+    display: block;
+}
+
+#section7 .sec7-contact p {
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
+    font-family: Open sans, sans-serif;
+    margin: 20px 0 0;
+    font-weight: 600;
+}
+
+#section7 .sec7-contact span {
+    font-size: 18px;
+    color: #5cdeea;
+}
+
+#section7 .sec7-contact .inner-left a {
+    float: none;
+    display: inline-block;
+    margin: 35px 0 0;
+    border: 2px solid #fff;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    padding: 15px 25px;
+  -webkit-transition: all ease 0.6s;
+  transition: all ease 0.6s;
+}
+#section7 .sec7-contact .inner-left a:hover {
+    -webkit-box-shadow: inset 200px 0 0 #fff;
+            box-shadow: inset 200px 0 0 #fff;
+    color: #425de6;
+}
+#section7 .sec7-contact .inner-right {
+    display: inline-block;
+    width: 45%;
+    margin-left: 3%;
+}
+
+#section7 .sec7-contact .inner-right ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#section7 .sec7-contact .inner-right ul li {
+    display: block;
+}
+
+#section7 .sec7-contact .inner-right ul li:first-child {
+    border-bottom: 2px solid #687deb;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+#section7 .sec7-contact .inner-right ul li img {
+    display: inline-block;
+    width: auto;
+}
+
+#section7 .sec7-contact .inner-right ul li p {
+    display: inline-block;
+    width: 77%;
+    vertical-align: middle;
+    margin: 20px 0 0 10px;
+    font-size: 16px;
+}
+
+#section7 .sec7-contact .inner-right ul li p span {
+    display: block;
+}
+
+#section7 .sec7-contact .inner-right ul li p a {
+    float: none;
+    border: none;
+}
+
+
+#nav_menu-2 {
+    width: 80%;
+    float: left;
+}
+#text-3 {
+    width: 80%;
+    float: left;
+}
+#media_image-2 {
+    float: right;
+    margin-top: -85px !important;
+}
+
+#section7 {
+    position: relative;
+}
+#section7 .sec7-right {
+    margin-top: 0;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+
+@media screen and (max-width: 1366px) { 
+    #section7 .sec7-contact .inner-right ul li p {
+        margin: 20px 0 0 5px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .text-content {
+        left: 10%;
+        right: 10%;
+    }
+    #section7 .sec7-contact {
+        padding: 100px 40px 150px;
+    }
+    #section7 .sec7-left .sec7-testimonial {
+        padding: 50px 40px;
+    }
+    #section7 .sec7-right {
+        margin-top: 276px;
+    }
+}
+@media screen and (max-width: 1280px) {
+    .my-container {
+        max-width: 1080px;
+        margin: 0 auto;
+    }
+    #main-header .main-menu ul li a {
+        margin: 0px 10px;
+    }
+    #main-header .btn-request {
+        padding: 40px 25px;
+    }
+}
+
+@media screen and (max-width: 1080px) { 
+    .my-container {
+        max-width: 980px;
+        margin: 0 auto;
+    }
+    #main-header .logo {
+        float: none;
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+    #main-header .main-menu {
+        float: none;
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+    #main-header #site-navigation {
+        float: none;
+        padding-top: 40px;
+        display: inline-block;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .main-navigation .primary-menu > li {
+        float: none;
+        display: inline-block;
+        text-align: center;
+        margin: 0 auto;
+    }
+    #banner h1 {
+        font-size: 33px;
+        line-height: 41px;
+    }
+    #banner p {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .text-content p {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .text-content {
+        top: 35%;
+    }
+    #section7 .sec7-contact .inner-right ul li p {
+        margin: 20px 0 0 5px;
+    }
+    #section7 .sec7-left a {
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .my-anchor {
+        top: -190px;
+    }
+}
+
+
+@media screen and (max-width: 980px) {  
+    .my-container {
+        max-width: 767px;
+        margin: 0 auto;
+    }
+    #main-header #site-navigation {
+        display: none;
+    }
+    #main-header .logo {
+        width: 48%;
+        display: inline-block;
+        vertical-align: top;
+    }
+    #main-header .main-menu {
+        width: 48%;
+        display: inline-block;
+        vertical-align: bottom;
+    }
+    #banner h1 {
+        font-size: 29px;
+        line-height: 35px;
+        max-width: 55%;
+    }
+    .number {
+        font-size: 100px;
+    }
+    #section3 .text-content {
+        top: 15%;
+    }
+    .text-content {
+        top: 30%;
+    }
+    #section6 .sec6-left {
+        float: none;
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        padding-bottom: 50px;
+    }
+    #section6 .sec6-right {
+        float: none;
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+    #section7 .sec7-left .sec7-heading {
+        font-size: 30px;
+        line-height: 36px;
+    }
+    #section7 .sec7-left .testimonial-free.text-center {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    #footer-sec .widget-area #text-2 {
+        width: 100%;
+        float: none;
+        display: block;
+        padding-bottom: 30px;
+    }
+    #footer-sec .widget-area #custom_html-2 {
+        width: 100%;
+        float: none;
+        display: block;
+        padding-bottom: 30px;
+    }
+    #banner {
+        padding: 130px 0;
+    }
+    .my-anchor {
+        top: -105px;
+    }
+}
+
+@media screen and (max-width: 767px) {  
+    .my-container {
+        max-width: 640px;
+        margin: 0 auto;
+    }
+    #top-header ul {
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+    }
+    #main-header .main-menu {
+        width: 57%;
+    }
+    #main-header .logo {
+        width: 33%;
+    }
+    button#responsive-menu-button {
+        top: 120px !important;
+    }
+    #banner {
+        padding: 140px 0;
+    }
+    .text-content h2 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    #section7 .sec7-right {
+        margin: 0 auto !important;
+        float: none;
+        position: unset;
+        display: block;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        min-height: 500px;
+    }
+    #section7 .sec7-left {
+        float: none;
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+    #footer-sec #content-bottom-widgets {
+        margin: 0;
+    }
+
+    .fixedit #main-header{
+        top: 53px;
+    }
+
+    #main-header .logo{
+        text-align: left;
+    }
+
+    .page button#responsive-menu-button{
+        top: 103px !important;
+    }
+
+    .page.fixedit button#responsive-menu-button{
+        position: fixed !important;
+        right: 45px !important;
+        top: 80px !important;
+    }
+}
+
+@media screen and (max-width: 640px) {  
+    .my-container {
+        max-width: 440px;
+        margin: 0 auto;
+    }
+    
+    .page button#responsive-menu-button{
+        top: 103px !important;
+    }
+
+    .page.fixedit button#responsive-menu-button{
+        position: fixed !important;
+        right: 45px !important;
+        top: 80px !important;
+    }
+    
+    #main-header .logo {
+        width: 48%;
+        padding-bottom: 20px;
+    }
+    #main-header .main-menu {
+        width: 46%;
+    }
+    #banner {
+        padding: 100px 0;
+        background-repeat: no-repeat;
+        background-position: 10%;
+    }
+    #section2 h2 {
+        font-size: 27px;
+        line-height: 34px;
+    }
+    #section2 p {
+        max-width: 100%;
+    }
+    .left {
+        float: none;
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+    #section3 .right, #section4 .left, #section5 .right {
+        float: none;
+        width: 100%;
+        display: block;
+    }
+    .right {
+        float: none;
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+    .text-content {
+        top: 35%;
+    }
+    #section6 .sec6-left h2 {
+        font-size: 28px;
+        line-height: 34px;
+    }   
+    #section6 .sec6-right ul li {
+        display: block;
+        width: 100%;
+        margin: 15px 0;
+        min-height: 160px;
+    }
+    #section7 .sec7-contact .inner-left {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+    #section7 .sec7-contact .inner-right {
+        display: block;
+        width: 100%;
+        margin-left: 0;
+    }
+    #section7 .sec7-contact {
+        text-align: center;
+        padding: 70px 40px 90px;
+    }   
+    #section7 .sec7-contact .inner-right ul li p {
+        margin: 20px 0 0 20px;
+        font-size: 21px;
+        line-height: 27px;
+    }
+    #section7 .sec7-left a {
+        font-size: 22px;
+        line-height: 29px;
+    }
+    #footer-sec .widget-area .wpcf7 .wpcf7-form p {
+        width: 260px;
+        padding-bottom: 20px;
+    }
+    #banner h1 {
+        max-width: 100%;
+    }
+    #banner p {
+        max-width: 100%;
+    }
+    #footer-sec .widget-area .wpcf7 {
+        float: none;
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+    #footer-sec .widget-area .widget-icons {
+        float: none;
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        padding-top: 20px;
+    }
+    #footer-sec .widget-area .widget-icons ul {
+        text-align: left;
+    }
+    #media_image-2 {
+        float: none;
+        margin-top: 0 !important;
+        position: unset;
+    }
+    #menu-footer-menu li {
+        font-size: 14px;
+    }
+    #nav_menu-2 {
+        width: 100%;
+        float: none;
+        display: block !important;
+    }
+    #text-3 {
+        width: 100%;
+        float: none;
+        display: block !important;
+        padding-bottom: 20px !important;
+    }
+    #footer-sec .widget-area #custom_html-2 {
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 440px) { 
+    .my-container {
+        max-width: 320px;
+        margin: 0 auto;
+    }
+    #main-header .main-menu {
+        display: none;
+    }
+    #main-header .logo {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        float: none;
+    }
+    #banner h1 {
+        font-size: 21px;
+        line-height: 30px;
+    }
+    #banner p {
+        font-size: 17px;
+        line-height: 22px;
+    }
+    #section2 h2 {
+        font-size: 21px;
+        line-height: 28px;
+    }
+    #section2 p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .text-content p {
+        margin: 30px 0 0;
+    }
+    #section6 .sec6-left h2 {
+        font-size: 23px;
+        line-height: 29px;
+    }
+    #section6 .sec6-left p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    #section6 .sec6-left ul li {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        padding-bottom: 20px;
+        text-align: center;
+    }   
+    #section6 .sec6-left {
+        padding-bottom: 0;
+    }
+    #section7 .sec7-left .sec7-heading {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    #section7 .sec7-left .testimonial-free.text-center {
+        font-size: 16px;
+        line-height: 23px;
+    }
+    #section7 .sec7-left .tf-client-name, #section7 .sec7-left .tf-client-designation {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    #section7 .sec7-contact .inner-right ul li{
+        text-align: center;
+    }
+    #section7 .sec7-contact .inner-right ul li p {
+        margin: 20px 0 0 10px;
+        font-size: 17px;
+        line-height: 22px;
+    }
+    #section7 .sec7-left a {
+        font-size: 17px;
+        line-height: 23px;
+    }
+    #footer-sec .widget-area .wpcf7 .wpcf7-form .wpcf7-submit {
+        padding: 12px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    #footer-sec .widget-area .wpcf7 .wpcf7-form p {
+        width: 176px;
+    }
+    #footer-sec .widget-area .wpcf7 .wpcf7-form input {
+        padding: 13px;
+        font-size: 14px;
+    }
+    #banner {
+        background-size: cover;
+        background-position: 69%;
+        position: relative;
+    }
+
+    #banner:before{
+        width: 100%;
+        height: 100%;
+        background:rgba(255,255,255,0.5);
+        content:'';
+        z-index: 3;
+        top: 0;
+        left: 0;
+        position: absolute;
+    }
+    #footer-sec .widget-area .wpcf7 .wpcf7-form .widget-btn {
+        width: 135px;
+        margin-left: 0;
+    }
+    #menu-footer-menu li {
+        font-size: 16px;
+        line-height: 25px;
+        padding-right: 0;
+        margin: 0;
+        padding-bottom: 10px;
+        border: none;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 360px) {  
+    #section7 .sec7-contact .inner-right ul li p {
+        margin: 20px 0 0 5px;
+    }
+}
+@media screen and (max-width: 320px) { 
+    .my-container {
+        max-width: 280px;
+        margin: 0 auto;
+    }
+    #top-header ul li {
+        display: block;
+        margin-left: 0;
+        width: 100%;
+        float: none;
+    }
+    #top-header ul li a {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    #main-header .logo {
+        width: 100%;
+        display: block;
+        float: none;
+        margin-left: -25px;
+    }
+    #banner {
+        padding: 70px 0;
+    }
+    #banner h1 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    #banner p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    #banner a {
+        padding: 13px 20px;
+    }
+    #section2 h2 {
+        font-size: 18px;
+        line-height: 23px;
+    }
+    #section2 {
+        padding: 45px 0px;
+    }
+    #section2 p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .text-content h2 {
+        font-size: 21px;
+        line-height: 27px;
+    }
+    #section3 .text-content {
+        top: 15%;
+    }
+    .text-content p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .number {
+        font-size: 80px;
+    }
+    .text-content a {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    #section6 .sec6-left h2 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    #section6 .sec6-left p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    #section7 .sec7-left .sec7-heading {
+        font-size: 19px;
+        line-height: 25px;
+    }
+    #section7 .sec7-left .testimonial-free.text-center {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    #section7 .sec7-left .tf-client-name, #section7 .sec7-left .tf-client-designation {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    #section7 .sec7-contact span {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    #section7 .sec7-contact p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    #section7 .sec7-contact .inner-left a {
+        padding: 15px 15px;
+    }
+    #section7 .sec7-left img {
+        margin: 10px 5px 0 0;
+    }
+    #section7 .sec7-contact .inner-right ul li p {
+        font-size: 15px;
+        line-height: 20px;
+        margin: 20px 0 0 0px;
+    }
+    #section7 .sec7-left a {
+        font-size: 15px;
+        line-height: 21px;
+    }
+    #footer-sec .widget-area .wpcf7 .wpcf7-form input {
+        padding: 11px;
+        font-size: 12px;
+    }
+    #footer-sec .widget-area .wpcf7 .wpcf7-form p {
+        width: 150px;
+    }
+    #footer-sec .widget-area .wpcf7 .wpcf7-form .widget-btn {
+        width: 125px;
+    }
+    #menu-footer-menu li {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    #footer-sec .widget-area .wpcf7 .wpcf7-form .wpcf7-submit {
+        line-height: 17px;
+    }
+}

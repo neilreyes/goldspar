@@ -1,0 +1,24 @@
+.tablepress{
+	margin: 35px 0;
+
+	td,
+	th{
+		padding: 18px !important;
+		text-align: center !important;
+	}
+
+	thead{
+		th{
+			font-weight: normal;
+			color:#ffffff;
+			background-color:#3d487c !important;
+		}
+	}
+
+	tbody{
+		td{
+			color: #7e7e7e;
+			font-family: 'Open Sans';
+		}
+	}
+}

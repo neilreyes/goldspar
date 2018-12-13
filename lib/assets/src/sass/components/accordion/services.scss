@@ -1,0 +1,55 @@
+.acc-entries{
+	padding: 30px 0;
+}
+
+.serv-accordion-entry{
+	margin-top: 15px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+
+	&:hover,
+	&:focus,
+	&:active{
+		border: 1px solid #425de6;
+
+		.serv-info-heading{
+			background-color: #425de6;
+
+			h3{
+				color: #ffffff;
+			}
+		}
+	}
+
+	&.active{
+		border: 1px solid #425de6;
+
+		.serv-info-heading{
+			background-color: #425de6;
+
+			h3{
+				color: #ffffff;
+			}
+		}
+	}
+}
+
+.serv-info-row{
+	padding: 20px;
+}
+
+.serv-info-heading{
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	transition: all 0.3s ease-in-out;
+
+	h3{
+		font-size: 18px;
+		margin: 0 !important;
+		transition: all 0.3s ease-in-out;
+	}
+}
+
+.serv-info-body{
+	display: none;
+}

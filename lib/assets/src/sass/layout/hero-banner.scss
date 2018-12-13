@@ -1,0 +1,56 @@
+#banner {
+    background-size: 100%;
+    background-position: center bottom;
+    padding: 140px 0 170px;
+    background-repeat: no-repeat;
+
+    .my-container{
+        position: relative;
+        z-index: 10;
+    }
+
+    h1 {
+        color: #425de6;
+        font-weight: bold;
+        font-size: 40px;
+        max-width: 45%;
+        text-transform: uppercase;
+        line-height: 46px;
+        font-family: 'Montserrat';
+    }
+
+    a {
+        background: #425de6;
+        color: #fff;
+        padding: 20px 30px;
+        display: inline-block;
+        margin-top: 25px;
+        font-size: 14px;
+        font-weight: bold;
+        -webkit-transition: all ease 0.6s;
+        transition: all ease 0.6s;
+        -webkit-box-shadow: inset 0 0 0 #fff;
+        box-shadow: inset 0 0 0 #fff;
+
+        &:hover,
+        &:focus,
+        &:active{
+            -webkit-box-shadow: inset 200px 0 0 #fff;
+            box-shadow: inset 200px 0 0 #fff;
+            color: #425de6;
+        }
+    }
+}
+
+.home{
+    #banner{
+        p {
+            color: #464646;
+            font-size: 24px;
+            margin-top: 10px;
+            line-height: 30px;
+            font-weight: bold;
+            max-width: 42%;
+        }
+    }
+}

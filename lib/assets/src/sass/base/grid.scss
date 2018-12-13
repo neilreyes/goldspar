@@ -1,0 +1,87 @@
+.clear {
+    width: 100%;
+    display: block;
+    clear: both;
+}
+
+body{
+	background:#fff;
+	font-family: 'Montserrat';
+
+	&.admin-bar{
+		&:not(.custom-background-image){
+			&:before{
+			    top: 0px;
+			}
+		}
+	}
+
+	&:not(.custom-background-image){
+		&:before,
+		&:after{
+		    background: inherit;
+		    content: "";
+		    display: block;
+		    height: 0 !important;
+		    left: 0 !important;
+		    position: unset !important;
+		    width: 100%;
+		    z-index: unset !important;
+		}
+	}
+}
+
+.site{
+    margin:0px;
+
+    &-inner {
+	    margin: 0 auto;
+	    max-width: 100% !important;
+	    position: relative;
+	}
+
+	&-content{
+	   padding:0px;
+	}
+
+	&-main {
+	    margin-bottom: 0px;
+	}
+}
+
+.content-area {
+    float: none;
+    margin-right: 0px;
+    width: 100%;
+}
+
+.my-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.left {
+    float: left;
+    width: 50%;
+
+    img {
+        width: 100%;
+    }
+
+    &:nth-child(odd) {
+        background: #425de6;
+    }
+}
+
+.right {
+    float: right;
+    width: 50%;
+
+    img {
+        width: 100%;
+    }
+
+    &:nth-child(even) {
+	    background: #425de6;
+	}
+}

@@ -1,0 +1,65 @@
+.btn-hide{
+    display:none;
+}
+
+.dg-button{
+	background: #425de6;
+	color: #fff;
+	padding: 20px 30px;
+	display: inline-block;
+	margin-top: 25px;
+	font-size: 14px;
+	font-weight: bold;
+	-webkit-transition: all ease 0.6s;
+	transition: all ease 0.6s;
+	-webkit-box-shadow: inset 0 0 0 #fff;
+	box-shadow: inset 0 0 0 #fff;
+}
+
+.dg-button:hover,
+.dg-button:focus,
+.dg-button:active{
+	-webkit-box-shadow: inset 200px 0 0 #fff;
+	box-shadow: inset 200px 0 0 #fff;
+	color: #425de6;
+}
+
+.dg-button--inverted{
+	border: 2px solid #425de6;
+	color: #425de6;
+	padding: 20px 30px;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: bold;
+	-webkit-transition: all ease 0.6s;
+	transition: all ease 0.6s;
+	-webkit-box-shadow: inset 0 0 0 #fff;
+	box-shadow: inset 0 0 0 #fff;
+}
+
+.dg-button--inverted:hover,
+.dg-button--inverted:focus,
+.dg-button--inverted:active{
+	color: #ffffff;
+	background-color: #425de6;
+}
+
+.dg-button-white{
+	background-color: #ffffff;
+	color: #425de6;
+	padding: 20px 30px;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: bold;
+	-webkit-transition: all ease 0.6s;
+	transition: all ease 0.6s;
+	-webkit-box-shadow: inset 0 0 0 #fff;
+	box-shadow: inset 0 0 0 #fff;
+}
+
+.dg-button-white:hover,
+.dg-button-white:active,
+.dg-button-white:focus{
+	background-color: #000;
+	color: #ffffff;
+}

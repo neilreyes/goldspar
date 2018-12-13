@@ -1,0 +1,186 @@
+#footer-sec {
+    background: #292929;
+    padding: 20px 0;
+    display: block;
+    width: 100%;
+
+    .widget-area {
+        margin: 0 auto ;
+        display: block;
+        width: 100% ;
+        padding:10px 0;
+        border-bottom: 1px solid rgba(255,255,255,0.1);
+        margin-bottom: 10px;
+
+        &:last-child{
+            border-bottom: 0px solid rgba(0,0,0,0);
+        }
+
+        .widget {
+            margin: 0 auto;
+            border: none;
+            padding: 0;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        #text-2 {
+            width: 40%;
+            float: left;
+        }
+
+        #custom_html-2 {
+            width: 60%;
+            float: right;
+        }
+
+        .widget-title {
+            font-size: 25px;
+            color: #616161;
+            line-height: 30px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            color: #616161;
+            font-size: 13px;
+            line-height: 18px;
+            margin-bottom: 10px;
+
+            a{
+                color: #616161;
+
+                &:hover,
+                &:focus,
+                &:active{
+                    color: #4761E7;
+                }
+            }
+        }
+
+        .wpcf7{
+            float: left;    
+
+            .wpcf7-form{
+                p{
+                    width: 300px;
+                    display: inline-block;
+                    vertical-align: top;
+                    margin-bottom: 0;
+                }
+
+                input{
+                    padding: 13px;
+                    font-size: 16px;
+                    color: #888888;
+                    font-weight: 600;
+                }
+
+                .wpcf7-submit {
+                    padding: 15px;
+                    background: #425de6;
+                    text-transform: capitalize;
+                    font-size: 15px;
+                    line-height: 22px;
+                    color:#fff;
+                    -webkit-box-shadow:inset 0 0 0 #fff;
+                    box-shadow:inset 0 0 0 #fff;
+                    -webkit-transition: all ease 0.6s;
+                    transition: all ease 0.6s;
+
+                    &:hover,
+                    &:focus,
+                    &:active{
+                        -webkit-box-shadow:inset 200px 0 0 #fff;
+                        box-shadow:inset 200px 0 0 #fff;
+                        color: #425de6;
+                    }
+                }
+
+                .widget-btn {
+                    width: 140px;
+                    display: inline-block;
+                    vertical-align: top;
+                    margin-left: 10px;
+                }
+            }
+        }
+
+        .widget-icons{
+            float: right;
+
+            ul{
+                margin: 0 auto;
+                text-align: center;
+                list-style: none;
+
+                li{
+                    display: inline-block;
+                    vertical-align: top;
+                    margin-left:10px;
+
+                    .fa{
+                        background: #616161;
+                        border-radius: 50%;
+                        text-shadow: none;
+                        color: #292929;
+                        font-size: 28px;
+                        width: 50px;
+                        height: 50px;
+                        line-height: 53px;
+                        text-align: center;
+                        -webkit-transition: all ease 0.6s;
+                        transition: all ease 0.6s;
+                        border:1px solid transparent;
+                    } 
+
+                    &:hover,
+                    &:focus,
+                    &:active{
+                        .fa{
+                            background: #292929;
+                            color: #616161;
+                            border:1px solid #616161;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .textwidget{
+        a{
+            -webkit-box-shadow: none;
+            box-shadow: none;
+        }
+    }
+} 
+
+#menu-footer-menu {
+    list-style: none;
+    margin: 0 auto;
+    margin-bottom: 20px;
+
+    li {
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 5px;
+        padding-right: 10px;
+        border-right: 2px solid #3f8087;
+        line-height: 15px;
+
+        &:last-child {
+            border:none;
+        }
+
+        a{
+            color: #616161;
+
+            &:hover,
+            &:focus,
+            &:active{
+                color: #4761E7;
+            }
+        }
+    }
+}

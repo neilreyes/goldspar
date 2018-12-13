@@ -1,0 +1,27 @@
+textarea,
+select,
+input[type="date"],
+input[type="time"],
+input[type="datetime-local"],
+input[type="week"],
+input[type="month"],
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="number"],
+textarea{
+	border-radius: 0px;
+	background-color: #f7f9f8;
+	margin-bottom: 15px;
+	border-top: 0px;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 3px solid #425de6;
+}
+
+.asterisk{
+	color: #425de6;
+}
